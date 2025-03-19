@@ -22,6 +22,8 @@ The code is organized into the following packages:
     - `GameBoard.java`: Defines the board interface.
     - `VariationGameBoard.java`: Implements the board with configurable variations.
     - `PlayerColor.java`: An enum for distinguishing players.
+
+- **rules**
     - **Strategy Interfaces and Implementations:**
         - `EndRule.java`, `DefaultEndRule.java`, `ExactLandingEndRule.java`: Encapsulate the logic for handling moves that reach or overshoot the END.
         - `HitRule.java`, `HitIgnoredRule.java`, `HitSendHomeRule.java`: Encapsulate how to handle hits (when one player lands on the opponent).
